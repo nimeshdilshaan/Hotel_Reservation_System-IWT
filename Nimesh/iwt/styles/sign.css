@@ -1,0 +1,148 @@
+
+.signin-container{
+    font-family: 'Times New Roman', Times, serif;
+
+    display: flex;
+
+    height: 100vh;
+    width: 50%;
+    margin-left: 460px;
+
+
+   
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    
+}
+
+
+
+.box{
+    
+    margin-top: 100px;
+    border-radius: 20px;
+    width: 70%;
+    
+    padding: 50px;
+    background-color: #fff8e0;
+
+ 
+}
+
+h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+label{
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="email"],input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remender-forgot{
+    display:flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.forgot-password{
+    text-align: right;
+    color: #0078d4;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password:hover{
+    text-decoration: underline;
+}
+
+.login-button{
+    width: 100%;
+    padding: 12px;
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background-color: #977402;
+}
+
+.or{
+    text-align: center;
+    margin: 15px;
+    color: #242222;
+}
+
+.google-button{
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.google-button:hover{
+    background-color:#ccc;
+}
+
+.google-button img{
+    width: 15px;
+    height: auto;
+    margin-right: 10px;
+    
+}
+
+.google-button a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+    font-family: Arial;
+
+}
+
+.signup{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.signup a{
+    color: #0078d4;
+    text-decoration: none;
+}
+
+.signup a:hover{
+    text-decoration: underline;
+}
+

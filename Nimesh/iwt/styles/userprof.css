@@ -1,0 +1,314 @@
+/*-----------Header-------------------*/
+.user-profile img {
+    float: right;
+    padding: 10px;
+}
+
+.user-profile button {
+    float: right;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.user-profile h2 {
+    float: right;
+    padding: 10px;
+}
+
+
+/*--------------------body--------------------------*/
+
+.user-view {
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+.user-view img {
+    float: left;
+    padding: 5px;
+
+}
+
+
+.user-view h1 {
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 150px;
+
+    height: 150px;
+    max-width: 500px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding: 10px;
+
+
+}
+
+.user-view button {
+    float: left;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+hr {
+    border: 2px solid;
+    color: rgb(82, 78, 78);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+
+/*------------databox 1-----------*/
+
+.databox1 {
+
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 50%;
+    height: 180px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: cadetblue 1px solid;
+}
+
+.databox1 p a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.databox1 h3 {
+    padding: 10px;
+}
+
+.databox1 p {
+    margin-left: 15px;
+}
+
+/*------------databox 2-----------*/
+
+.databox2 {
+
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 50%;
+    height: 85px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: cadetblue 1px solid;
+}
+
+.databox2 p a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.databox2 h3 {
+    padding: 10px;
+}
+
+.databox2 p {
+    margin-left: 15px;
+}
+
+/*------------databox 3-----------*/
+
+.databox3 {
+
+
+
+    max-width: 50%;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: cadetblue 1px solid;
+    float: right;
+    width: 47%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    position: relative;
+    left: 1px;
+    bottom: 160px;
+
+
+}
+
+.databox3 p a {
+    color: #acacac;
+    text-decoration: none;
+}
+
+.databox3 h3 {
+    padding: 10px;
+}
+
+.databox3 p {
+    margin-left: 15px;
+}
+
+.databox3 h4 {
+    margin-left: 15px;
+}
+
+
+/*------------databox 4-----------*/
+
+.databox4 {
+
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 50%;
+    height: 120px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: cadetblue 1px solid;
+    float: right;
+    width: 47%;
+
+
+}
+
+.databox4 p a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.databox4 h3 {
+    padding: 10px;
+}
+
+.databox4 p {
+    margin-left: 15px;
+}
+
+.databox4 h4 {
+    margin-left: 15px;
+}
+
+
+.prof {
+    height: 650px;
+}
+
+.edit {
+    color: #acacac;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+.txtbox1 input {
+    width: 500px;
+    height: 30px;
+    margin-left: 150px;
+    padding: 15px;
+}
+
+.txtbox2 input {
+    width: 500px;
+    height: 30px;
+    margin-left: 150px;
+    padding: 15px;
+}
+
+.txtbox3 input {
+    width: 500px;
+    height: 30px;
+    margin-left: 150px;
+    padding: 15px;
+}
+
+.txtbox4 input {
+    width: 500px;
+    height: 30px;
+    margin-left: 150px;
+  
+}
+
+.txtbox5 input {
+    width: 500px;
+    height: 30px;
+    margin-left: 150px;
+    padding: 15px;
+}
+
+
+
+
+
+.txtbox1 label {
+
+
+    padding-right: 39px;
+
+}
+
+.txtbox2 label {
+
+    padding-right: 14px;
+
+}
+
+.txtbox3 label {
+
+
+    padding-right: 60px;
+
+}
+
+.txtbox4 label {
+
+
+    padding-right: 30px;
+
+}
+
+.txtbox5 label {
+
+
+    padding-right: 30px;
+
+}
+
+
+
+h5,h6{
+
+
+    margin-left: 280px;
+
+}
+
+.edit button{
+    width: 75px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: #ffcc00 2px solid;
+
+
+}
+
+.edit button a{
+    text-decoration: none;
+    color: #ffcc00;
+    
+
+}
+
+.edit .submit{
+    width: 100px;
+    height: 30px;
+    background-color: #ffcc00;
+    border: #ffd000 2px solid;
+    color: #fff;
+    padding: 5px;
+
+
+}
+

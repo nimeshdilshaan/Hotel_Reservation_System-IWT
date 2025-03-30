@@ -1,0 +1,14 @@
+.distab{
+    border:solid;
+    margin-top: 20px;
+    width:70%;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.distab tr td{
+    font-size: 30px;
+    border:1px solid black;
+    padding:8px;
+}

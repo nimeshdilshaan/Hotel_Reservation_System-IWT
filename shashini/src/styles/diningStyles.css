@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+    font-family: century;
+    font-family: "Poppins", system-ui;
+    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -100;
+    filter: sepia(0.5);
+    background: url('../image/blur-coffee-shop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.frame {
+    width: 100%;
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame .innerFrame {
+    width: 85%;
+    min-height: 65vh;
+    border-radius: 10px;
+    background-color: rgba(50, 50, 50, 0.65);
+    padding: 10px 25px;
+    border: 1px solid rgba(220, 220, 220, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.frame .innerFrame .title_block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+}
+
+.frame .innerFrame .title_block h1 {
+    font-family: century;
+    /* font-weight: normal; */
+    color: gold;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+
+.frame .innerFrame .title_block p {
+    font-family: century;
+    font-size: 1em;
+    color: antiquewhite;
+}
+
+.frame .innerFrame .container {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.container .card {
+    padding: 100px 10px 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 15px;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgba(240, 255, 255, 0.5);
+    overflow: hidden;
+    z-index: 5;
+}
+
+.container .card::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+.container .card:nth-child(1) {
+    background: url('../image/coffee-cup.jpg');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.container .card:nth-child(2) {
+    background: url('../image/life-style.jpg');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.container .card:nth-child(3) {
+    background: url('../image/happy-waiter-serving-food-group-cheerful-friends-pub.jpg');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.container .card h3 {
+    font-family: century;
+}
+
+.container .card p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 75%;
+    font-size: .75em;
+}

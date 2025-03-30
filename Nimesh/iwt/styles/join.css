@@ -1,0 +1,64 @@
+
+
+
+.form-container{
+
+    justify-content: center;
+    align-items: center;
+   
+   
+    background: #fff;
+  
+    padding: 150px;
+    margin: 150px;
+    max-width: 1000px;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(135deg,#c2bcbc,rgb(255, 255, 255));
+}
+label{
+    font-weight: bold;
+}
+
+fieldset{
+    border: none;
+}
+
+.form-container form .details{
+    font-size: 15px;
+    position: relative;
+}
+
+.form-container form .inputbox{
+    width: calc(100%/2-20px);
+}
+
+.form-container .inputbox input{
+    height: 45px;
+    width: 100%;
+
+}
+
+.form-container .subs{
+    height: 45px;
+    width: 100%;
+    background-color: #ffcc00;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+
+}
+
+.form-container .subs:hover{
+
+    background-color: #e6b800;
+}
+
+

@@ -1,0 +1,172 @@
+
+CREATE DATABASE Hotel_reservation_system_;
+
+
+USE Hotel_reservation_system_;
+
+/* admin table */
+
+CREATE TABLE admin 
+(
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    full_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255)  NOT NULL,
+    phone VARCHAR(50)  NOT NULL,
+    profile_image VARCHAR(255)  DEFAULT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    password INT(11) NOT NULL,
+    PRIMARY KEY (id),
+    INDEX (email)
+);
+
+
+/* admin_logs table */
+
+CREATE TABLE admin_logs 
+(
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    action_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    action VARCHAR(100)  DEFAULT NULL,
+    details VARCHAR(255)  DEFAULT NULL,
+    PRIMARY KEY (id)
+);
+
+
+/* book table */
+
+CREATE TABLE book 
+(
+    Book_id INT(11) NOT NULL AUTO_INCREMENT,
+    Book_name VARCHAR(255)  NOT NULL,
+    email VARCHAR(255)  NOT NULL,
+    check_in DATE NOT NULL,
+    check_out DATE NOT NULL,
+    offers VARCHAR(255) DEFAULT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (Book_id)
+);
+
+
+
+/* dining table */ 
+
+
+CREATE TABLE dining 
+(
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    title VARCHAR(255)  NOT NULL,
+    description TEXT  NOT NULL,
+    PRIMARY KEY (id)
+);
+
+
+/* faqs table */
+
+CREATE TABLE faqs 
+(
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    question VARCHAR(255)  NOT NULL,
+    answer TEXT COLLATE NOT NULL,
+    PRIMARY KEY (id)
+);
+
+
+
+/* notifications table */
+
+
+CREATE TABLE notifications 
+(
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    admin_id INT(11) DEFAULT NULL,
+    message VARCHAR(255) DEFAULT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
+);
+
+
+/* payment_details1 table */
+
+
+CREATE TABLE payment_details1 
+(
+    id INT(30) NOT NULL AUTO_INCREMENT,
+    room_type VARCHAR(80)  NOT NULL,
+    first_name VARCHAR(60)  NOT NULL,
+    last_name VARCHAR(50)  NOT NULL,
+    email VARCHAR(80)  NOT NULL,
+    phone BIGINT(20) NOT NULL,
+    country VARCHAR(20)  NOT NULL,
+    address VARCHAR(100)  NOT NULL,
+    zip BIGINT(20) NOT NULL,
+    city VARCHAR(20) NOT NULL,
+    card_number VARCHAR(30) NOT NULL,
+    month VARCHAR(15)  NOT NULL,
+    year VARCHAR(10)  NOT NULL,
+    PRIMARY KEY (id)
+);
+
+
+/* reservation table */
+
+CREATE TABLE reservations 
+(
+    reservation_id INT(11) NOT NULL AUTO_INCREMENT,
+    guest_name VARCHAR(100) DEFAULT NULL,
+    room_type VARCHAR(50)  DEFAULT NULL,
+    check_in DATE DEFAULT NULL,
+    check_out DATE DEFAULT NULL,
+    status VARCHAR(50) DEFAULT NULL,
+    PRIMARY KEY (reservation_id)
+);
+
+
+
+/* rooms table */
+
+CREATE TABLE rooms 
+(
+    id INT(30) NOT NULL AUTO_INCREMENT,
+    room_type VARCHAR(80) NOT NULL,
+    first_name VARCHAR(60)  NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    email VARCHAR(80)  NOT NULL,
+    phone BIGINT(20) NOT NULL,
+    country VARCHAR(20)  NOT NULL,
+    address VARCHAR(100) NOT NULL,
+    zip BIGINT(20) NOT NULL,
+    city VARCHAR(20)  NOT NULL,
+    card_number VARCHAR(30)  NOT NULL,
+    month VARCHAR(15)  NOT NULL,
+    year VARCHAR(10)  NOT NULL,
+    PRIMARY KEY (id)
+);
+
+
+
+/* users table */
+
+CREATE TABLE users 
+(
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    first_name VARCHAR(255)  NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    phone VARCHAR(15)  NOT NULL,
+    email VARCHAR(255)  NOT NULL,
+    country VARCHAR(255)  NOT NULL,
+    address TEXT NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    photo VARCHAR(255) DEFAULT NULL,
+    PRIMARY KEY (id)
+);
+
+
+
+
+
+
+
+
+
+
