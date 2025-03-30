@@ -155,8 +155,8 @@
 
         <div class="footer-section contact-info">
             <h3>Contact Us</h3>
-            <p><strong>Phone:</strong> +94 91 5555 926</p>
-            <p><strong>Email:</strong> nims@famous5.lk</p>
+            <p><strong>Phone:</strong> +94 91 5555 777</p>
+            <p><strong>Email:</strong> info@famous5.lk</p>
             <p><strong>Location:</strong> Malabe, Sri Lanka</p>
         </div>
 
